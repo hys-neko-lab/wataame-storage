@@ -1,0 +1,11 @@
+<volume>
+    <name>$name</name>
+    <allocation>$alloc</allocation>
+    <capacity unit='G'>$cap</capacity>
+    <target>
+        <path>$path</path>
+        <permissions>
+            <mode>0664</mode>
+        </permissions>
+    </target>
+</volume>

@@ -1,0 +1,1 @@
+python3 -m grpc_tools.protoc -I wataame-rpc/storage --python_out=. --grpc_python_out=. storage.proto

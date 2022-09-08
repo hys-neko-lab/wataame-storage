@@ -1,0 +1,17 @@
+<pool type='dir'>
+    <name>$name</name>
+    <uuid>$uuid</uuid>
+    <capacity unit='G'>$cap</capacity>
+    <allocation unit='G'>$alloc</allocation>
+    <available unit='G'>$cap</available>
+    <source>
+    </source>
+    <target>
+        <path>$mntpath</path>
+        <permissions>
+            <mode>0775</mode>
+            <owner>-1</owner>
+            <group>-1</group>
+        </permissions>
+    </target>
+</pool>
